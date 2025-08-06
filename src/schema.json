@@ -1,0 +1,11 @@
+{
+  "tables": {
+    "tasks": {
+      "columns": {
+        "id": { "type": "uuid", "primaryKey": true, "default": "gen_random_uuid()" },
+        "name": { "type": "string" },
+        "completed": { "type": "boolean" }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "electric-sql-react-poc-latest",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.3.7",
+    "@electric-sql/pglite-react": "^0.2.25",
+    "@electric-sql/pglite-sync": "^0.3.10",
+    "electric-sql": "^0.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^5.0.0"
+  }
+}
